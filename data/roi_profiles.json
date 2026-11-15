@@ -1,0 +1,19 @@
+[
+  {
+    "id": "213d7226",
+    "name": "Percobaan 1",
+    "roi": {
+      "x1": 0.3,
+      "y1": 0.25,
+      "x2": 0.74,
+      "y2": 1.0
+    },
+    "ref_width": 856,
+    "ref_height": 480,
+    "source": {
+      "type": "mp4",
+      "value": "videos/kelas.mp4"
+    },
+    "created": "2026-11-15 19:11:22"
+  }
+]

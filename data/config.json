@@ -1,0 +1,14 @@
+{
+  "model": "yolov8n.pt",
+  "conf": 0.35,
+  "imgsz": 640,
+  "tracker": "bytetrack.yaml",
+  "lost_grace_seconds": 1.0,
+  "scene_match_min_inliers": 12,
+  "aspect_tolerance": 0.08,
+  "source": {
+    "type": "mp4",
+    "value": "videos/kelas.mp4"
+  },
+  "active_profile": "213d7226"
+}
