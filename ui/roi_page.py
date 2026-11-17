@@ -39,8 +39,8 @@ def render():
         try: rv = roimod.validate(r) if r["x1"] < r["x2"] and r["y1"] < r["y2"] else None
         except ValueError: rv = None
         if rv:
-            x1, y1, x2, y2 = roimod.to_pixels(rv, W, H); ov = rgb.copy(); cv2.rectangle(ov, (x1, y1), (x2, y2), (112, 66, 184), -1)
-            rgb = cv2.addWeighted(ov, .15, rgb, .85, 0); cv2.rectangle(rgb, (x1, y1), (x2, y2), (112, 66, 184), max(2, W // 300))
+            x1, y1, x2, y2 = roimod.to_pixels(rv, W, H); ov = rgb.copy(); cv2.rectangle(ov, (x1, y1), (x2, y2), (124, 58, 237), -1)
+            rgb = cv2.addWeighted(ov, .15, rgb, .85, 0); cv2.rectangle(rgb, (x1, y1), (x2, y2), (124, 58, 237), max(2, W // 300))
         for (cx, cy) in ss.roi_clicks: cv2.circle(rgb, (int(cx * W), int(cy * H)), max(5, W // 150), (255, 255, 255), -1)
         st.caption("Klik sudut pertama, lalu klik sudut berlawanan pada gambar. Sesuaikan posisi/ukuran dengan slider di kanan.")
         res = sic(Image.fromarray(rgb), key="roi_img", width=IMG_W)

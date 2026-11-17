@@ -1,9 +1,43 @@
 [
   {
-    "id": "213d7226",
-    "name": "Percobaan 1",
+    "id": "d3b2b0a8",
+    "name": "Kelas TK A",
     "roi": {
-      "x1": 0.3,
+      "x1": 0.255,
+      "y1": 0.25,
+      "x2": 0.76,
+      "y2": 0.985
+    },
+    "ref_width": 856,
+    "ref_height": 480,
+    "source": {
+      "type": "mp4",
+      "value": "videos/kelas.mp4"
+    },
+    "created": "2026-11-17 21:28:48"
+  },
+  {
+    "id": "174fc678",
+    "name": "Kelas TKB",
+    "roi": {
+      "x1": 0.235,
+      "y1": 0.22,
+      "x2": 0.73,
+      "y2": 1.0
+    },
+    "ref_width": 856,
+    "ref_height": 480,
+    "source": {
+      "type": "mp4",
+      "value": "videos/kelas.mp4"
+    },
+    "created": "2026-11-17 21:35:12"
+  },
+  {
+    "id": "6ae8a732",
+    "name": "Kelas TK A 2",
+    "roi": {
+      "x1": 0.23,
       "y1": 0.25,
       "x2": 0.74,
       "y2": 1.0
@@ -14,6 +48,6 @@
       "type": "mp4",
       "value": "videos/kelas.mp4"
     },
-    "created": "2026-11-15 19:11:22"
+    "created": "2026-11-17 21:39:05"
   }
 ]

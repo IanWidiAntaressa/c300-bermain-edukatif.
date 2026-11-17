@@ -4,7 +4,7 @@ from collections import deque
 from . import config, roi as roimod
 from .counter import ZoneCounter, foot_point
 from .video import open_capture, source_error
-GREEN, RED, PURPLE = (60, 180, 60), (60, 60, 230), (184, 66, 112)   # BGR
+GREEN, RED, PURPLE = (60, 180, 60), (60, 60, 230), (237, 58, 124)   # BGR (#7c3aed, aksen tema)
 class Processor:
     def __init__(self):
         self.status, self.message = "stopped", ""; self.count, self.detected = 0, 0
